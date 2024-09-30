@@ -1,0 +1,52 @@
+.container{
+   background-color: #34495e;
+   text-align: center;
+   height: 450px;
+   width: 25%;
+   margin: auto;
+   box-sizing: border-box;
+   
+}
+
+#age {
+   padding: 15px 10px;
+   margin-top: 20px;
+   border: none;
+   background-color: transparent;
+   box-shadow: 1px 0px 4px white;
+   color: white;
+   font-size: 20px;
+   box-sizing: border-box;
+   width: 90%;
+}
+
+.main-btn1 button{
+     padding: 20px;
+     background-color: transparent;
+     color: white;
+     margin-top: 10px;
+     box-shadow: 1px 0px 4px;
+     margin-top: 20px;
+     width: 60px; /* Set a fixed width for all buttons */
+     height: 60px; 
+}
+
+.main-btn1, .main-btn {
+   display: flex;
+   justify-content: space-evenly;
+ }
+ 
+.main-btn button{
+   padding: 20px;
+   margin-top: 10px;
+   background-color: transparent;
+   color: white;   
+   box-shadow: 1px 0px 4px;
+   width: 60px; /* Set a fixed width for all buttons */
+  height: 60px; 
+  cursor: pointer;
+}
+
+#equal {
+    width:130px;
+}
